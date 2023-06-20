@@ -1,0 +1,31 @@
+.loginPage{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+   
+    /* width: 40vw; */
+}
+.avatar{
+    height: 12vh;
+
+}
+.icons{
+    height: 10vh;
+    width: 10vw;
+    color: rgb(225, 231, 236);
+}
+.sign{
+    height: 5vh;
+    color: rgb(224, 224, 232);
+}
+.btn{
+    height: 4vh;
+    padding: 10px 20px 20px 20px;
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 25px;
+    background-color: rgb(3, 104, 25);
+}

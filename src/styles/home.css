@@ -1,0 +1,90 @@
+.app{
+    text-align: center;
+    height: 7vh;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.blogs{
+
+    border: none;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+
+flex-direction: column;
+margin-top: 10px;
+margin-left: 20px;
+color: aliceblue;
+}
+.blog{
+    height: 25vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: #021523;
+    box-shadow: 5px 5px 5px 5px aqua;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+.blog_title{
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    margin-bottom: 8px;
+
+   
+}
+.blog_content{
+    height: 16vh;
+    font-size: medium;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+}
+.blog_details{
+    height: 3vh;
+    font-size: medium;
+    display: flex;
+margin-top: 5px;
+    width: 100%;
+    width: 100%;
+}
+.delIcon{
+    height: 3vh;
+    width: 3vw;
+cursor: pointer;
+}
+.like{
+    position: relative;
+left: 78vw; 
+align-items: center;
+margin-right: 10px;
+
+}
+.fav{
+    fill: red;
+}
+.time{
+    color: rgb(186, 162, 162);
+}
+.loader{
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+position: absolute;
+top: 40vh;
+left: 45vw;
+
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
